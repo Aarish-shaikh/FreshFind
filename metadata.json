@@ -1,0 +1,6 @@
+{
+  "name": "FreshFind – Local Farmers Market & Produce Guide",
+  "description": "Discover neighborhood farmers markets, explore seasonal produce, check live opening hours, and bookmark local favorites with FreshFind.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

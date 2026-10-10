@@ -1,0 +1,248 @@
+[
+  {
+    "id": "m1",
+    "name": "Downtown Green Commons Market",
+    "tagline": "The city's vibrant weekend hub for certified organic produce & artisanal bakers",
+    "area": "Downtown Historic Plaza",
+    "address": "1200 SW Park Avenue",
+    "city": "Metropolis",
+    "state": "OR",
+    "zip": "97201",
+    "latitude": 45.5165,
+    "longitude": -122.6823,
+    "description": "Established over 25 years ago, the Downtown Green Commons Market brings together over 60 regional family farms every Saturday and Wednesday. Enjoy fresh heirloom fruits, crisp mountain greens, artisan cheeses, fresh flowers, and live folk acoustics under century-old elm trees.",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "operatingDays": ["Wednesday", "Saturday"],
+    "scheduleDetails": [
+      { "day": "Monday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Tuesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Wednesday", "isOpen": true, "openTime": "10:00", "closeTime": "14:00", "displayHours": "10:00 AM – 2:00 PM" },
+      { "day": "Thursday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Friday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Saturday", "isOpen": true, "openTime": "08:30", "closeTime": "14:00", "displayHours": "8:30 AM – 2:00 PM" },
+      { "day": "Sunday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" }
+    ],
+    "produceCategories": ["Vegetables", "Fruits", "Herbs & Greens", "Dairy & Eggs", "Artisanal & Bakery", "Honey & Preserves"],
+    "featuredProduceIds": ["p1", "p2", "p5", "p7", "p9", "p11"],
+    "amenities": {
+      "parking": "Dedicated underground garage with 1st hour validated & bicycle parking corral",
+      "dogFriendly": true,
+      "snapEbt": true,
+      "restrooms": true,
+      "wheelchairAccessible": true,
+      "liveMusic": true
+    },
+    "contact": {
+      "phone": "(503) 555-0192",
+      "email": "downtown@freshfind-egreen.org",
+      "website": "https://freshfind.local/markets/downtown",
+      "manager": "Elena Rostova"
+    },
+    "isFeatured": true
+  },
+  {
+    "id": "m2",
+    "name": "Riverfront Orchard & Harbor Market",
+    "tagline": "Freshly picked coastal fruits, riverside berry pies, and heirloom root vegetables",
+    "area": "Riverfront Promenade",
+    "address": "450 Water Street Pier 4",
+    "city": "Metropolis",
+    "state": "OR",
+    "zip": "97204",
+    "latitude": 45.5208,
+    "longitude": -122.6711,
+    "description": "Perched alongside the scenic waterfront marina, this lively Sunday morning destination is famous for heirloom berry growers, fresh cold-pressed ciders, pasture-raised egg producers, and handcrafted sourdough bread. Stroll along the river breeze while sampling fresh local honey.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80",
+    "operatingDays": ["Sunday"],
+    "scheduleDetails": [
+      { "day": "Monday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Tuesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Wednesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Thursday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Friday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Saturday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Sunday", "isOpen": true, "openTime": "09:00", "closeTime": "14:30", "displayHours": "9:00 AM – 2:30 PM" }
+    ],
+    "produceCategories": ["Fruits", "Vegetables", "Honey & Preserves", "Artisanal & Bakery"],
+    "featuredProduceIds": ["p2", "p3", "p8", "p12", "p14"],
+    "amenities": {
+      "parking": "Public surface lot at Pier 4 ($3 flat rate on weekends)",
+      "dogFriendly": true,
+      "snapEbt": true,
+      "restrooms": true,
+      "wheelchairAccessible": true,
+      "liveMusic": true
+    },
+    "contact": {
+      "phone": "(503) 555-0248",
+      "email": "riverfront@freshfind-egreen.org",
+      "website": "https://freshfind.local/markets/riverfront",
+      "manager": "Marcus Vance"
+    },
+    "isFeatured": true
+  },
+  {
+    "id": "m3",
+    "name": "Oakridge Community Farmers Market",
+    "tagline": "Family-run suburban gathering with fresh greens, farm eggs, and seasonal flowers",
+    "area": "Oakridge Hillside",
+    "address": "2810 Oak Boulevard & 28th",
+    "city": "Metropolis",
+    "state": "OR",
+    "zip": "97214",
+    "latitude": 45.5123,
+    "longitude": -122.6394,
+    "description": "A beloved neighborhood cornerstone set in the tranquil Oakridge community park. Families enjoy kid-friendly gardening workshops, seasonal squash competitions, small-batch goats' cheese tastings, and freshly cut culinary herbs.",
+    "image": "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?auto=format&fit=crop&w=800&q=80",
+    "operatingDays": ["Tuesday", "Saturday"],
+    "scheduleDetails": [
+      { "day": "Monday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Tuesday", "isOpen": true, "openTime": "15:00", "closeTime": "19:00", "displayHours": "3:00 PM – 7:00 PM (Twilight Market)" },
+      { "day": "Wednesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Thursday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Friday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Saturday", "isOpen": true, "openTime": "09:00", "closeTime": "13:30", "displayHours": "9:00 AM – 1:30 PM" },
+      { "day": "Sunday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" }
+    ],
+    "produceCategories": ["Vegetables", "Herbs & Greens", "Dairy & Eggs", "Honey & Preserves"],
+    "featuredProduceIds": ["p1", "p4", "p6", "p10", "p13"],
+    "amenities": {
+      "parking": "Free community school lot across the street",
+      "dogFriendly": false,
+      "snapEbt": true,
+      "restrooms": true,
+      "wheelchairAccessible": true,
+      "liveMusic": false
+    },
+    "contact": {
+      "phone": "(503) 555-0371",
+      "email": "oakridge@freshfind-egreen.org",
+      "website": "https://freshfind.local/markets/oakridge",
+      "manager": "Clara Higgins"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "m4",
+    "name": "Westside Artisanal & Farm Bazaar",
+    "tagline": "Curated farm-to-table culinary goods, rare mushrooms, and organic vegetables",
+    "area": "Westside Arts District",
+    "address": "890 Industrial Way",
+    "city": "Metropolis",
+    "state": "OR",
+    "zip": "97210",
+    "latitude": 45.5341,
+    "longitude": -122.6982,
+    "description": "Connecting creative culinary artisans with boutique micro-farms. Discover wild-foraged chanterelles and lion's mane mushrooms, stone-milled whole grain breads, microgreens, fermented kimchi, and organic heritage root crops.",
+    "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=800&q=80",
+    "operatingDays": ["Thursday", "Sunday"],
+    "scheduleDetails": [
+      { "day": "Monday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Tuesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Wednesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Thursday", "isOpen": true, "openTime": "14:00", "closeTime": "18:30", "displayHours": "2:00 PM – 6:30 PM" },
+      { "day": "Friday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Saturday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Sunday", "isOpen": true, "openTime": "10:00", "closeTime": "15:00", "displayHours": "10:00 AM – 3:00 PM" }
+    ],
+    "produceCategories": ["Vegetables", "Herbs & Greens", "Artisanal & Bakery", "Honey & Preserves"],
+    "featuredProduceIds": ["p4", "p5", "p9", "p15", "p16"],
+    "amenities": {
+      "parking": "Spacious on-street parking & covered bike racks",
+      "dogFriendly": true,
+      "snapEbt": true,
+      "restrooms": true,
+      "wheelchairAccessible": true,
+      "liveMusic": true
+    },
+    "contact": {
+      "phone": "(503) 555-0419",
+      "email": "westside@freshfind-egreen.org",
+      "website": "https://freshfind.local/markets/westside",
+      "manager": "Devon Miller"
+    },
+    "isFeatured": true
+  },
+  {
+    "id": "m5",
+    "name": "Highland Valley Sunrise Market",
+    "tagline": "Crisp mountain elevation greens, crisp heritage apples, and raw honey combs",
+    "area": "Highland Valley",
+    "address": "412 Highland Peak Road",
+    "city": "Metropolis",
+    "state": "OR",
+    "zip": "97221",
+    "latitude": 45.4981,
+    "longitude": -122.7125,
+    "description": "Nestled in the lush hills west of the metro center, the Sunrise Market boasts pristine produce harvested just hours before opening. Famous for organic crisp apples, raw wildflower honeycomb, and heirloom brassicas.",
+    "image": "https://images.unsplash.com/photo-1506484381205-f7945653044d?auto=format&fit=crop&w=800&q=80",
+    "operatingDays": ["Friday", "Saturday"],
+    "scheduleDetails": [
+      { "day": "Monday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Tuesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Wednesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Thursday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Friday", "isOpen": true, "openTime": "09:00", "closeTime": "14:00", "displayHours": "9:00 AM – 2:00 PM" },
+      { "day": "Saturday", "isOpen": true, "openTime": "08:00", "closeTime": "13:00", "displayHours": "8:00 AM – 1:00 PM" },
+      { "day": "Sunday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" }
+    ],
+    "produceCategories": ["Fruits", "Vegetables", "Honey & Preserves", "Dairy & Eggs"],
+    "featuredProduceIds": ["p2", "p7", "p8", "p11", "p12"],
+    "amenities": {
+      "parking": "Gravel park lot with 120 vehicle spaces",
+      "dogFriendly": true,
+      "snapEbt": false,
+      "restrooms": true,
+      "wheelchairAccessible": true,
+      "liveMusic": false
+    },
+    "contact": {
+      "phone": "(503) 555-0812",
+      "email": "highland@freshfind-egreen.org",
+      "website": "https://freshfind.local/markets/highland",
+      "manager": "Hannah Sorensen"
+    },
+    "isFeatured": false
+  },
+  {
+    "id": "m6",
+    "name": "Eastside Greenway Twilight Market",
+    "tagline": "Evening after-work produce shopping, hot farm cider, and organic bakeries",
+    "area": "Eastside Greenway",
+    "address": "1510 SE Hawthorne Blvd",
+    "city": "Metropolis",
+    "state": "OR",
+    "zip": "97215",
+    "latitude": 45.5121,
+    "longitude": -122.6508,
+    "description": "Designed for commuters and evening shoppers who can't make morning weekend markets. Grab dinner ingredients straight from the dirt: leafy kale, crisp bell peppers, pasture butter, and freshly harvested culinary thyme.",
+    "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=800&q=80",
+    "operatingDays": ["Monday", "Thursday"],
+    "scheduleDetails": [
+      { "day": "Monday", "isOpen": true, "openTime": "16:00", "closeTime": "20:00", "displayHours": "4:00 PM – 8:00 PM" },
+      { "day": "Tuesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Wednesday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Thursday", "isOpen": true, "openTime": "16:00", "closeTime": "20:00", "displayHours": "4:00 PM – 8:00 PM" },
+      { "day": "Friday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Saturday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" },
+      { "day": "Sunday", "isOpen": false, "openTime": "", "closeTime": "", "displayHours": "Closed" }
+    ],
+    "produceCategories": ["Vegetables", "Herbs & Greens", "Dairy & Eggs", "Artisanal & Bakery"],
+    "featuredProduceIds": ["p1", "p3", "p6", "p10", "p15"],
+    "amenities": {
+      "parking": "Neighborhood street parking and nearby transit hub",
+      "dogFriendly": true,
+      "snapEbt": true,
+      "restrooms": true,
+      "wheelchairAccessible": true,
+      "liveMusic": true
+    },
+    "contact": {
+      "phone": "(503) 555-0935",
+      "email": "eastside@freshfind-egreen.org",
+      "website": "https://freshfind.local/markets/eastside",
+      "manager": "Tariq Owens"
+    },
+    "isFeatured": false
+  }
+]

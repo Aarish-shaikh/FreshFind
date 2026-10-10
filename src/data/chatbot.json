@@ -1,0 +1,149 @@
+{
+  "welcomeMessage": {
+    "text": "Hello and welcome to FreshFind (eGreen Basket)! 🌿 I can help you find open markets, explore seasonal produce, check schedules, or navigate our platform. What would you like to explore today?",
+    "quickReplies": [
+      "Which markets are open today?",
+      "What produce is in season now?",
+      "Where can I buy fresh apples?",
+      "How do bookmarks work?",
+      "Do markets accept SNAP/EBT?",
+      "Are markets dog friendly?"
+    ]
+  },
+  "rules": [
+    {
+      "id": "open_today",
+      "keywords": ["open today", "today", "open now", "hours today", "when open", "current market"],
+      "response": "Several markets operate on scheduled days throughout the week! Downtown Green Commons is open Wednesdays & Saturdays, Riverfront is open Sundays, and Eastside Greenway operates Monday & Thursday evenings. You can view all live schedules in our Market Directory.",
+      "quickReplies": ["View Market Directory", "Check Seasonal Picks", "Are pets allowed?"],
+      "actionLink": {
+        "label": "Open Market Directory",
+        "page": "directory"
+      }
+    },
+    {
+      "id": "season_produce",
+      "keywords": ["in season", "seasonal", "autumn", "fall", "spring", "summer", "winter", "harvest", "fresh now"],
+      "response": "Our Seasonal Recommendations guide spotlights peak harvests! Right now in Autumn, you'll find Honeycrisp apples, butternut squash, wild chanterelles, and crisp Asian pears at their absolute freshest.",
+      "quickReplies": ["View Seasonal Guide", "Find Apples", "Produce Catalog"],
+      "actionLink": {
+        "label": "Explore Seasonal Picks",
+        "page": "seasonal"
+      }
+    },
+    {
+      "id": "apples",
+      "keywords": ["apple", "apples", "honeycrisp", "orchard", "fruit", "pears"],
+      "response": "Heritage Honeycrisp and Gala apples are currently in peak season! You can find them at the Downtown Green Commons Market, Riverfront Orchard Market, and Highland Valley Sunrise Market.",
+      "quickReplies": ["Downtown Green Market", "Riverfront Market", "Produce Guide"],
+      "actionLink": {
+        "label": "View Honeycrisp Apples",
+        "page": "produce-guide",
+        "targetId": "p2"
+      }
+    },
+    {
+      "id": "tomatoes",
+      "keywords": ["tomato", "tomatoes", "heirloom", "brandywine"],
+      "response": "Fresh vine-ripened Heirloom Brandywine Tomatoes are available at Downtown Green Commons, Oakridge Community Market, and Eastside Greenway Twilight Market.",
+      "quickReplies": ["Produce Guide", "Downtown Market", "What else is fresh?"],
+      "actionLink": {
+        "label": "View Heirloom Tomatoes",
+        "page": "produce-guide",
+        "targetId": "p1"
+      }
+    },
+    {
+      "id": "mushrooms",
+      "keywords": ["mushroom", "mushrooms", "chanterelle", "fungi", "oyster mushroom"],
+      "response": "Pacific wild chanterelles and oyster mushrooms are hand-foraged and available at Oakridge Community Market and Westside Artisanal & Farm Bazaar.",
+      "quickReplies": ["Westside Bazaar", "Produce Guide", "Where is Oakridge?"],
+      "actionLink": {
+        "label": "View Wild Mushrooms",
+        "page": "produce-guide",
+        "targetId": "p4"
+      }
+    },
+    {
+      "id": "downtown_market",
+      "keywords": ["downtown", "green commons", "historic plaza", "sw park"],
+      "response": "Downtown Green Commons Market is open Wednesdays (10 AM - 2 PM) and Saturdays (8:30 AM - 2 PM) at 1200 SW Park Avenue. It features 60+ farms, cheese makers, and live folk music.",
+      "quickReplies": ["Downtown Market Details", "Show Parking Info", "Other Markets"],
+      "actionLink": {
+        "label": "Downtown Market Page",
+        "page": "market-detail",
+        "targetId": "m1"
+      }
+    },
+    {
+      "id": "bookmarks",
+      "keywords": ["bookmark", "favorite", "save", "notes", "export", "share bookmarks"],
+      "response": "You can click the heart bookmark icon on any market card or produce item to save it! In the Bookmarks page, you can attach session notes, copy or download your formatted list, and share with friends.",
+      "quickReplies": ["Go to Bookmarks", "Market Directory", "Produce Guide"],
+      "actionLink": {
+        "label": "View My Bookmarks",
+        "page": "bookmarks"
+      }
+    },
+    {
+      "id": "snap_ebt",
+      "keywords": ["snap", "ebt", "food stamps", "payment", "tokens", "credit card", "cash"],
+      "response": "Yes! Most of our partner markets (including Downtown, Riverfront, Oakridge, and Westside) proudly accept SNAP/EBT and offer the Double Up Food Bucks program. Vendors also accept cash, debit/credit cards, and market tokens.",
+      "quickReplies": ["Find a Market", "Riverfront Market", "Contact Support"],
+      "actionLink": {
+        "label": "Browse Directory",
+        "page": "directory"
+      }
+    },
+    {
+      "id": "pets",
+      "keywords": ["pet", "dog", "dogs", "animals", "leash"],
+      "response": "Downtown Green Commons, Riverfront Orchard, Westside Bazaar, Highland Valley, and Eastside Greenway are all dog-friendly on standard leashes! Oakridge Community Market does not allow pets in the main field due to school park regulations.",
+      "quickReplies": ["Downtown Market", "Riverfront Market", "Market Directory"],
+      "actionLink": {
+        "label": "View Dog-Friendly Markets",
+        "page": "directory"
+      }
+    },
+    {
+      "id": "parking",
+      "keywords": ["parking", "park", "car", "transit", "bicycle"],
+      "response": "Every market detail page includes parking instructions. Downtown offers an underground garage with 1st-hour validation, Oakridge has free school parking, and Riverfront has public marina parking. Bike corrals are available at all locations!",
+      "quickReplies": ["Market Directory", "Contact Us", "How to bookmark?"],
+      "actionLink": {
+        "label": "Explore Markets",
+        "page": "directory"
+      }
+    },
+    {
+      "id": "contact_help",
+      "keywords": ["contact", "support", "email", "phone", "location", "team", "office"],
+      "response": "You can reach the FreshFind team at hello@freshfind-egreen.org or (503) 555-0100. Our community hub is at 400 Greenways Blvd, Metropolis. Check our Contact Us page for a live map and inquiry form!",
+      "quickReplies": ["Contact Us Page", "About Us", "Market Directory"],
+      "actionLink": {
+        "label": "Go to Contact Us",
+        "page": "contact"
+      }
+    },
+    {
+      "id": "about",
+      "keywords": ["about", "mission", "who are you", "egreen basket", "fresh all along", "story"],
+      "response": "FreshFind (theme: eGreen Basket) is a community initiative dedicated to connecting neighbors with local growers, shortening the food supply chain, and celebrating regional seasonal agriculture.",
+      "quickReplies": ["Learn More About Us", "Explore Markets", "Produce Guide"],
+      "actionLink": {
+        "label": "Read About Us",
+        "page": "about"
+      }
+    }
+  ],
+  "fallbackResponse": {
+    "text": "I didn't quite catch that, but I'm here to help! Try asking about market hours, what's in season, specific produce like apples or mushrooms, or use one of the quick replies below.",
+    "quickReplies": [
+      "Which markets are open today?",
+      "What produce is in season now?",
+      "Find Honeycrisp apples",
+      "How do bookmarks work?",
+      "Contact the team"
+    ]
+  }
+}
